@@ -29,6 +29,8 @@ public class Sale {
 	public Sale() {
 	}
 
+	//Deals = negócios fechados;
+	//Amount = valor
 	public Sale(Long id, Integer visited, Integer deals, Double amount, LocalDate date, Seller seller) {
 		this.id = id;
 		this.visited = visited;
